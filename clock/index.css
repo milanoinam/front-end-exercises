@@ -1,0 +1,54 @@
+body{
+    /* background-color: rgb(126, 55, 158); */
+    /* background-image: url(wooden.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#clockContainer{
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    /* border: 2px solid red; */
+    background-size: 100%;
+    margin: auto;
+}
+
+#hourhand, #minutehand, #secondhand{
+    position: relative;
+    background: black;
+    border-radius:  10px;
+    transform-origin: bottom;
+}
+
+#hourhand{
+    
+    height: 23%;
+    width: 2%;
+    top: 26.3%;
+    left: 48.81%;
+    opacity: 0.8;
+    /* display: none; */
+    
+}
+
+#minutehand{
+    height: 28%;
+    width: 1.3%;
+    top: -1.5%;
+    left: 48.93%;
+    opacity: 0.7;
+
+    /* display: none; */
+}
+
+#secondhand{
+
+    height: 32%;
+    width: 0.8%;
+    top: -33.5%;
+    left: 49.2%;
+    opacity: 0.8;
+    /* display: none; */
+
+}
