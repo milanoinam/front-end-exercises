@@ -1,0 +1,7 @@
+More features to add:
+
+* LinGame 
+  Developed by : Milan Oinam
+* hi score
+* food on snake body not allowed
+* levels (speed increases) 
